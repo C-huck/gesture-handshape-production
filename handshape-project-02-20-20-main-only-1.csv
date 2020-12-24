@@ -1,0 +1,506 @@
+Participant,EventFilename,SignerStatus,LabelBin,Alternate-1,Alternate,Manipulation,Tool,Movement,Manner,HS1Code,HS2Code
+RVN,adjust-picture-TR,0,1,1,1,1,0,0,0,B^T-,B^T-
+RVN,approach-coatrack-IN,0,0,0,0,0,0,1,0,B^T-,
+RVN,ball-bounce-IN,0,0,1,1,0,0,1,1,DTo;/,
+RVN,ball-drop-IN,0,0,1,1,0,0,1,0,BT@ B^T-,
+RVN,ball-hit-waterbottle-TR,0,1,0,1,0,0,1,0,B;/,B;/
+RVN,ball-roll-IN,0,0,0,1,0,0,1,1,1<;T;#,1<;T;#
+RVN,balloon-deflate-IN,0,0,0,0,0,0,0,0,B^T- BT^<,B^T- BT^<
+RVN,book-fall-over-IN,0,0,1,1,0,0,1,0,B^T-,
+RVN,bottle-caps-spill-IN,0,0,1,1,0,0,1,1,B^T- BT@,B^T BT@
+RVN,bounce-ball-TR,0,1,1,1,1,0,0,0,B^T-,
+RVN,bowl-break-IN,0,0,0,1,0,0,0,0,BT@ BT-k,BT@ BT-k
+RVN,box-move-IN,0,0,1,1,0,0,1,1,B^T-,B^T-
+RVN,bread-spin-IN,0,0,1,1,0,0,1,1,1;T;#,1;#
+RVN,break-stick-TR,0,1,1,1,1,0,0,0,BT@,BT@
+RVN,car-pass-tower-IN,0,0,0,0,0,0,1,0,B;T,
+RVN,cards-scatter-IN,0,0,0,0,0,0,1,1,B^T-,B^T-
+RVN,close-microwave-door-TR,0,1,1,1,1,0,0,0,B;/,
+RVN,coatrack-approach-IN,0,0,0,0,0,0,1,0,B;/,
+RVN,crush-can-TR,0,1,0,0,1,0,0,0,BT^( B^T-,BT^( B^T-
+RVN,cut-bread-TR,0,1,0,0,1,1,0,0,1[;To;#,B^T- Bc;/
+RVN,dip-finger-in-jar-TR,0,1,0,0,1,0,0,0,J;#,Bc;#
+RVN,door-microwave-close-IN,0,0,1,1,0,0,1,0,B^T-,
+RVN,drop-ball-TR,0,1,1,1,1,0,0,0,BT@ B^T-,B@;/ B^T-
+RVN,fan-turn-IN,0,0,1,1,0,0,1,0,B^T-,
+RVN,fizzle-down-IN,0,0,0,0,0,0,1,1,BTk,B^T-
+RVN,hammer-nail-TR,0,1,0,0,1,1,0,0,1[;To;#,1T>;/
+RVN,hanger-swing-IN,0,0,0,0,0,0,1,1,1T(;#,1T(;#
+RVN,hit-balloon-TR,0,1,0,1,1,0,0,0,B^T-,BT-k@
+RVN,hit-bottle-with-ball-TR,0,1,0,0,1,1,0,0,BT^(,
+RVN,knock-over-tower-TR,0,1,1,1,1,0,0,0,B^T- BT-,B^T BT-
+RVN,lid-blow-off-IN,0,0,0,0,0,0,1,1,B^T-,BT^c
+RVN,lift-teapot-pinky-TR,0,1,0,0,1,0,0,0,J;T-;#,
+RVN,light-candle-TR,0,1,0,0,1,1,0,0,B@;T- BT-k@,1;#
+RVN,light-turn-on-IN,0,0,0,0,0,0,0,0,BT@ B^T,BT@
+RVN,march-IN,0,0,0,0,0,0,1,1,UT^c;#,
+RVN,measure-book-TR,0,1,0,0,1,1,0,0,1Tc;# 1@;T-;#,1Tc;# 1@;T-;#
+RVN,move-box-TR,0,1,1,1,1,0,0,0,B^T,B^T
+RVN,paper-airplane-land-IN,0,0,0,0,0,0,1,0,B^T-,
+RVN,paper-drop-IN,0,0,0,0,0,0,1,1,B^T-,
+RVN,pen-move-IN,0,0,0,1,0,0,1,0,1To;#,1;#
+RVN,person-bend-over-IN,0,0,0,0,0,0,0,0,B;/ Bo;T- B@;T,
+RVN,picture-shift-IN,0,0,1,1,0,0,1,0,1T;#,1T;#
+RVN,plug-in-TR,0,1,0,0,1,1,0,0,U^;#,UT-^;#
+RVN,pop-balloon-TR,0,1,0,0,1,1,0,0,1To;/ B^T-,B@;/ B^T-
+RVN,poster-roll-up-IN,0,0,0,0,0,0,1,1,B^T- 1;#,B^T- 1;#
+RVN,pour-bottle-caps-TR,0,1,1,1,1,1,0,0,BTkc B^T,B^T
+RVN,pull-out-measuring-tape-TR,0,1,0,0,1,0,0,0,1To;#,BT^c
+RVN,push-button-microwave-TR,0,1,0,0,1,0,0,0,1;#,B^T-
+RVN,push-toy-in-box-TR,0,1,0,0,1,0,0,0,B^T-,BT@
+RVN,put-book-on-side-TR,0,1,1,1,1,0,0,0,B^;#,B^T-
+RVN,put-cup-on-coaster-TR,0,1,0,0,1,0,0,0,BT@,
+RVN,racecar-into-box-IN,0,0,0,0,0,0,1,0,BT-c,B;/
+RVN,remove-cork-TR,0,1,0,0,1,0,0,0,BT^c BT@,BT^(
+RVN,reorient-pole-TR,0,1,0,0,1,0,0,0,B^T,B^T
+RVN,roll-out-TR,0,1,0,0,1,0,0,0,B^T-,B^T-
+RVN,shake-shaker-TR,0,1,0,0,1,0,0,0,Bkc;/,Bkc;/
+RVN,shaving-cream-spray-IN,0,0,1,1,0,0,1,1,1<;T-;#,1c;#
+RVN,spin-bread-TR,0,1,1,1,1,0,0,0,B^T- 1;#,BT^c 1<;#
+RVN,spray-shaving-cream-TR,0,1,1,1,1,1,0,0,1c;#,B^T-
+RVN,stick-break-IN,0,0,1,1,0,0,0,0,B^T-,B^T-
+RVN,take-keys-out-of-box-TR,0,1,0,0,1,0,0,0,BT^c Bkc;/,BT^c
+RVN,take-lid-off-TR,0,1,0,0,1,0,0,0,BT^c BT> 1To;/,Bc;#
+RVN,tape-measurer-bend-half-IN,0,0,0,0,0,0,0,0,B^T-,BTkc
+RVN,taughten-string-TR,0,1,0,0,1,0,0,0,BT@,BT@
+RVN,tear-paper-TR,0,1,0,0,1,0,0,0,1T>;#,1T>;#
+RVN,tower-fall-IN,0,0,1,1,0,0,0,0,B^;# M;#,B^T
+RVN,toy-appear-in-box-IN,0,0,0,0,0,0,1,0,1T@;#,B^T-
+RVN,toy-crawl-IN,0,0,0,0,0,0,1,1,BT^c,
+RVN,toy-skitter-IN,0,0,0,0,0,0,1,1,B^T BTk,B^T-
+RVN,turn-fan-TR,0,1,1,1,1,0,0,0,BT^(,BT^(
+RVN,walk-backwards-IN,0,0,0,0,0,0,1,1,U^c;#,
+RVN,whirly-gig-drop-IN,0,0,0,0,0,0,1,1,1;#,1;#
+NP,adjust-picture-TR,0,1,1,1,1,0,0,0,BT-@,BT@
+NP,approach-coatrack-IN,0,0,0,0,0,0,1,0,UT[;#,B;/
+NP,ball-bounce-IN,0,0,1,1,0,0,1,1,BT@ BT-^c,
+NP,ball-drop-IN,0,0,1,1,0,0,1,0,BT@ B^T-,B;/
+NP,ball-hit-waterbottle-TR,0,1,0,1,0,0,1,0,BT^c B^T- BT@ B;/,BT^c
+NP,ball-roll-IN,0,0,0,1,0,0,1,1,B;#,
+NP,balloon-deflate-IN,0,0,0,0,0,0,0,0,BT^( B^T,BT^( B^T
+NP,book-fall-over-IN,0,0,1,1,0,0,1,0,BTc,
+NP,bottle-caps-spill-IN,0,0,1,1,0,0,1,1,BT( BT^<,IT>;#
+NP,bounce-ball-TR,0,1,1,1,1,0,0,0,B;/,
+NP,bowl-break-IN,0,0,0,1,0,0,0,0,B;/,B;/
+NP,box-move-IN,0,0,1,1,0,0,1,1,1T(;#,1T(;#
+NP,bread-spin-IN,0,0,1,1,0,0,1,1,1T-;#,
+NP,break-stick-TR,0,1,1,1,1,0,0,0,BT@,BT@
+NP,car-pass-tower-IN,0,0,0,0,0,0,1,0,BT> B^T-,BTc
+NP,cards-scatter-IN,0,0,0,0,0,0,1,1,BTc B^T-,Bc;/
+NP,close-microwave-door-TR,0,1,1,1,1,0,0,0,B;/,B;/
+NP,coatrack-approach-IN,0,0,0,0,0,0,1,0,B;/,
+NP,crush-can-TR,0,1,0,0,1,0,0,0,Bo;T- B^T- BT-k[,BTc B^T- BT^[
+NP,cut-bread-TR,0,1,0,0,1,1,0,0,B@;/ BT(,BT(
+NP,dip-finger-in-jar-TR,0,1,0,0,1,0,0,0,J;#,BTc
+NP,door-microwave-close-IN,0,0,1,1,0,0,1,0,B:/,B:/
+NP,drop-ball-TR,0,1,1,1,1,0,0,0,BT@ B^T- B@;/,B;/
+NP,fan-turn-IN,0,0,1,1,0,0,1,0,1;#,BT(
+NP,fizzle-down-IN,0,0,0,0,0,0,1,1,BTx,Bc;/
+NP,hammer-nail-TR,0,1,0,0,1,1,0,0,1@;T-;#,1<;#
+NP,hanger-swing-IN,0,0,0,0,0,0,1,1,JT-;#,B;#
+NP,hit-balloon-TR,0,1,0,1,1,0,0,0,B;/ B;T,BTx B^T
+NP,hit-bottle-with-ball-TR,0,1,0,0,1,1,0,0,B^[;/,B@;/
+NP,knock-over-tower-TR,0,1,1,1,1,0,0,0,B;# BT-^<,JT-;# B^;T-
+NP,lid-blow-off-IN,0,0,0,0,0,0,1,1,B;/,BTc
+NP,lift-teapot-pinky-TR,0,1,0,0,1,0,0,0,1[;#,J;#
+NP,light-candle-TR,0,1,0,0,1,1,0,0,B@;T- BT-k@,BTx
+NP,light-turn-on-IN,0,0,0,0,0,0,0,0,BTo B^T-,BT@
+NP,march-IN,0,0,0,0,0,0,1,1,UT^[;#,BT@
+NP,measure-book-TR,0,1,0,0,1,1,0,0,1@;T-;#,BT@
+NP,move-box-TR,0,1,1,1,1,0,0,0,1T-;#,1T(;#
+NP,paper-airplane-land-IN,0,0,0,0,0,0,1,0,JT-;#,B;/
+NP,paper-drop-IN,0,0,0,0,0,0,1,1,U;#,
+NP,pen-move-IN,0,0,0,1,0,0,1,0,UT<;#,
+NP,person-bend-over-IN,0,0,0,0,0,0,0,0,B;/,BTc
+NP,picture-shift-IN,0,0,1,1,0,0,1,0,B@;/,B@;/
+NP,plug-in-TR,0,1,0,0,1,1,0,0,1>;#,B;/
+NP,pop-balloon-TR,0,1,0,0,1,1,0,0,UT>;# BT@ B^T-,BTkc BT@ B^T-
+NP,poster-roll-up-IN,0,0,0,0,0,0,1,1,B@;/ B^T- BT-,B@;/
+NP,pour-bottle-caps-TR,0,1,1,1,1,1,0,0,BT( U<;#,BT(
+NP,pull-out-measuring-tape-TR,0,1,0,0,1,0,0,0,1T>;#,BT@
+NP,push-button-microwave-TR,0,1,0,0,1,0,0,0,1;T;#,B;/
+NP,push-toy-in-box-TR,0,1,0,0,1,0,0,0,U^[;# B@;/ BT-<,B;/
+NP,put-book-on-side-TR,0,1,1,1,1,0,0,0,BT(,
+NP,put-cup-on-coaster-TR,0,1,0,0,1,0,0,0,1@;T-;#,BT-
+NP,racecar-into-box-IN,0,0,0,0,0,0,1,0,U^[;#,B;/
+NP,remove-cork-TR,0,1,0,0,1,0,0,0,BT^c Bk@;/,BT^(
+NP,reorient-pole-TR,0,1,0,0,1,0,0,0,BT(,BTc
+NP,roll-out-TR,0,1,0,0,1,0,0,0,BT- Bc;/,BT- BT-c
+NP,shake-shaker-TR,0,1,0,0,1,0,0,0,B^[;#,BT-k[
+NP,shaving-cream-spray-IN,0,0,1,1,0,0,1,1,UT;# BTk BTx BT-^c,B;/
+NP,spin-bread-TR,0,1,1,1,1,0,0,0,BT^c 1T-;# U;# BT,BTc
+NP,spray-shaving-cream-TR,0,1,1,1,1,1,0,0,1[;# BT> B^T,B^T-
+NP,stick-break-IN,0,0,1,1,0,0,0,0,BT>,BT>
+NP,take-keys-out-of-box-TR,0,1,0,0,1,0,0,0,BT^c,BTc
+NP,take-lid-off-TR,0,1,0,0,1,0,0,0,U^<;#,B;/
+NP,tape-measurer-bend-half-IN,0,0,0,0,0,0,0,0,BT,BT@
+NP,taughten-string-TR,0,1,0,0,1,0,0,0,BT@,BT@
+NP,tear-paper-TR,0,1,0,0,1,0,0,0,BT->,BT->
+NP,tower-fall-IN,0,0,1,1,0,0,0,0,H;#,BT-
+NP,toy-appear-in-box-IN,0,0,0,0,0,0,1,0,U^;#,B;/
+NP,toy-crawl-IN,0,0,0,0,0,0,1,1,UT^(;#,
+NP,toy-skitter-IN,0,0,0,0,0,0,1,1,BT^x,
+NP,turn-fan-TR,0,1,1,1,1,0,0,0,Bc;/,B@;T-
+NP,walk-backwards-IN,0,0,0,0,0,0,1,1,B^T- B^T,
+NP,whirly-gig-drop-IN,0,0,0,0,0,0,1,1,B^T- BTk,
+IP,adjust-picture-TR,0,1,1,1,1,0,0,0,Bk@;/,Bk@;/
+IP,approach-coatrack-IN,0,0,0,0,0,0,1,0,UT(;#,Bc;/
+IP,ball-bounce-IN,0,0,1,1,0,0,1,1,BT^(,
+IP,ball-drop-IN,0,0,1,1,0,0,1,0,BT^c,
+IP,ball-hit-waterbottle-TR,0,1,0,1,0,0,1,0,1T-;#,BTkc
+IP,ball-roll-IN,0,0,0,1,0,0,1,1,1;#,
+IP,balloon-deflate-IN,0,0,0,0,0,0,0,0,B^T- B^T,BT(
+IP,book-fall-over-IN,0,0,1,1,0,0,1,0,BT-,
+IP,bottle-caps-spill-IN,0,0,1,1,0,0,1,1,BT( M;/,
+IP,bounce-ball-TR,0,1,1,1,1,0,0,0,B^T- B;/,
+IP,bowl-break-IN,0,0,0,1,0,0,0,0,BT-^c B^c;/ B^T-,BT^c BT-^c B^T-
+IP,box-move-IN,0,0,1,1,0,0,1,1,1<;T;#,
+IP,bread-spin-IN,0,0,1,1,0,0,1,1,BT^c 1T-;#,BT^c
+IP,break-stick-TR,0,1,1,1,1,0,0,0,BT-@,BT-@
+IP,car-pass-tower-IN,0,0,0,0,0,0,1,0,UT-;#,B^T-
+IP,cards-scatter-IN,0,0,0,0,0,0,1,1,UT;#,B;/
+IP,close-microwave-door-TR,0,1,1,1,1,0,0,0,B;T,
+IP,coatrack-approach-IN,0,0,0,0,0,0,1,0,1<;T;#,
+IP,crush-can-TR,0,1,0,0,1,0,0,0,BT-^c,Bo;T-
+IP,cut-bread-TR,0,1,0,0,1,1,0,0,1[;To;#,
+IP,dip-finger-in-jar-TR,0,1,0,0,1,0,0,0,J;#,
+IP,door-microwave-close-IN,0,0,1,1,0,0,1,0,B;/,B;/
+IP,drop-ball-TR,0,1,1,1,1,0,0,0,BTkc B^T- B;/,
+IP,fan-turn-IN,0,0,1,1,0,0,1,0,U<;#,
+IP,fizzle-down-IN,0,0,0,0,0,0,1,1,BTo B^T-,BTo B^T-
+IP,hammer-nail-TR,0,1,0,0,1,1,0,0,1@;T-;#,1T>;#
+IP,hanger-swing-IN,0,0,0,0,0,0,1,1,BT-,
+IP,hit-balloon-TR,0,1,0,1,1,0,0,0,B^T-,BT@ BTkc
+IP,hit-bottle-with-ball-TR,0,1,0,0,1,1,0,0,BT^(,
+IP,knock-over-tower-TR,0,1,1,1,1,0,0,0,B;/ B^T-,B^T-
+IP,lid-blow-off-IN,0,0,0,0,0,0,1,1,BTo B^T-,BT-
+IP,lift-teapot-pinky-TR,0,1,0,0,1,0,0,0,J;T-;# Jt-[;#,
+IP,light-candle-TR,0,1,0,0,1,1,0,0,B@;T- Bk@;/,
+IP,light-turn-on-IN,0,0,0,0,0,0,0,0,BT@ B^T,
+IP,march-IN,0,0,0,0,0,0,1,1,U<;# U^[;#,
+IP,measure-book-TR,0,1,0,0,1,1,0,0,1@;T-;#,1@;T-;#
+IP,move-box-TR,0,1,1,1,1,0,0,0,BT^c,BTkc
+IP,paper-airplane-land-IN,0,0,0,0,0,0,1,0,Uc;#,
+IP,paper-drop-IN,0,0,0,0,0,0,1,1,B^T-,
+IP,pen-move-IN,0,0,0,1,0,0,1,0,1;#,
+IP,person-bend-over-IN,0,0,0,0,0,0,0,0,B;/,B;/
+IP,picture-shift-IN,0,0,1,1,0,0,1,0,B;/,
+IP,plug-in-TR,0,1,0,0,1,1,0,0,U^[;T-;#,BT^(
+IP,pop-balloon-TR,0,1,0,0,1,1,0,0,1To;#,1@;T-;#
+IP,poster-roll-up-IN,0,0,0,0,0,0,1,1,1;T-;#,B^T-
+IP,pour-bottle-caps-TR,0,1,1,1,1,1,0,0,BTc,
+IP,pull-out-measuring-tape-TR,0,1,0,0,1,0,0,0,1@;T-;#,1@;T-;#
+IP,push-button-microwave-TR,0,1,0,0,1,0,0,0,1;#,
+IP,push-toy-in-box-TR,0,1,0,0,1,0,0,0,B^T-,B^T- B^[;/
+IP,put-book-on-side-TR,0,1,1,1,1,0,0,0,BTo,
+IP,put-cup-on-coaster-TR,0,1,0,0,1,0,0,0,1@;T-;#,
+IP,racecar-into-box-IN,0,0,0,0,0,0,1,0,U;#,
+IP,remove-cork-TR,0,1,0,0,1,0,0,0,BT@,
+IP,reorient-pole-TR,0,1,0,0,1,0,0,0,BTc,BTc
+IP,roll-out-TR,0,1,0,0,1,0,0,0,B;/,B;/
+IP,shake-shaker-TR,0,1,0,0,1,0,0,0,Bk[;/,BTk[
+IP,shaving-cream-spray-IN,0,0,1,1,0,0,1,1,1T-;#,
+IP,spin-bread-TR,0,1,1,1,1,0,0,0,U;#,BT^( Bkc;/
+IP,spray-shaving-cream-TR,0,1,1,1,1,1,0,0,1^[;T;# 1T;# BTo BT^<,Bk@;/
+IP,stick-break-IN,0,0,1,1,0,0,0,0,B^T- B;/,B^T-
+IP,take-keys-out-of-box-TR,0,1,0,0,1,0,0,0,BT^c,Bkc;/
+IP,take-lid-off-TR,0,1,0,0,1,0,0,0,UT>;#,B@;T-
+IP,tape-measurer-bend-half-IN,0,0,0,0,0,0,0,0,UT<;#,BT^c
+IP,taughten-string-TR,0,1,0,0,1,0,0,0,1o;T;#,BT-k@
+IP,tear-paper-TR,0,1,0,0,1,0,0,0,1@;T-;#,B[;#
+IP,tower-fall-IN,0,0,1,1,0,0,0,0,BTo B^T-,
+IP,toy-appear-in-box-IN,0,0,0,0,0,0,1,0,BT-,BT-
+IP,toy-crawl-IN,0,0,0,0,0,0,1,1,1<;#,
+IP,toy-skitter-IN,0,0,0,0,0,0,1,1,BT^c,
+IP,turn-fan-TR,0,1,1,1,1,0,0,0,BT-^c,BTkc
+IP,walk-backwards-IN,0,0,0,0,0,0,1,1,U^;#,U^;#
+IP,whirly-gig-drop-IN,0,0,0,0,0,0,1,1,B^T,
+HO,adjust-picture-TR,0,1,1,1,1,0,0,0,B^T-,B^T-
+HO,approach-coatrack-IN,0,0,0,0,0,0,1,0,BT^c,BT-
+HO,ball-bounce-IN,0,0,1,1,0,0,1,1,BT^c B^T,BT^c B^T
+HO,ball-drop-IN,0,0,1,1,0,0,1,0,BT^[,B^T-
+HO,ball-hit-waterbottle-TR,0,1,0,1,0,0,1,0,BT^c B^T,Bkc;/
+HO,ball-roll-IN,0,0,0,1,0,0,1,1,1;T;#,B;T
+HO,balloon-deflate-IN,0,0,0,0,0,0,0,0,8T(;/ B^T-,8T(;/ B^T-
+HO,book-fall-over-IN,0,0,1,1,0,0,1,0,B^T,B^T
+HO,bottle-caps-spill-IN,0,0,1,1,0,0,1,1,B^T BT^<,B;T
+HO,bounce-ball-TR,0,1,1,1,1,0,0,0,B;/,B;/
+HO,bowl-break-IN,0,0,0,1,0,0,0,0,8T(;/,8T(;/
+HO,box-move-IN,0,0,1,1,0,0,1,1,8T(;/,8T(;/
+HO,bread-spin-IN,0,0,1,1,0,0,1,1,BT^x 1;#,BT^x BTk
+HO,break-stick-TR,0,1,1,1,1,0,0,0,BT@,BT@
+HO,car-pass-tower-IN,0,0,0,0,0,0,1,0,B^T-,BT-
+HO,cards-scatter-IN,0,0,0,0,0,0,1,1,B^;#,BT-
+HO,close-microwave-door-TR,0,1,1,1,1,0,0,0,B;/,B^T-
+HO,coatrack-approach-IN,0,0,0,0,0,0,1,0,B;/,
+HO,crush-can-TR,0,1,0,0,1,0,0,0,BT^c B^T,BT^c B^T
+HO,cut-bread-TR,0,1,0,0,1,1,0,0,1[;T;#,BTkc
+HO,dip-finger-in-jar-TR,0,1,0,0,1,0,0,0,J;T-;#,BT^(
+HO,door-microwave-close-IN,0,0,1,1,0,0,1,0,B;/,B;/
+HO,drop-ball-TR,0,1,1,1,1,0,0,0,BT@ B^T-,B^T-
+HO,fan-turn-IN,0,0,1,1,0,0,1,0,1<;T-;#,B^T-
+HO,fizzle-down-IN,0,0,0,0,0,0,1,1,BTo BT^c,BT^c
+HO,hammer-nail-TR,0,1,0,0,1,1,0,0,1@;T-;#,1<;T;#
+HO,hanger-swing-IN,0,0,0,0,0,0,1,1,1[;#,
+HO,hit-balloon-TR,0,1,0,1,1,0,0,0,B^T-,BT^(
+HO,hit-bottle-with-ball-TR,0,1,0,0,1,1,0,0,BT^c BT^( 1;T;#,BT^c
+HO,knock-over-tower-TR,0,1,1,1,1,0,0,0,B^;T-,BT- B^T;T-
+HO,lid-blow-off-IN,0,0,0,0,0,0,1,1,B;/,BT-c
+HO,lift-teapot-pinky-TR,0,1,0,0,1,0,0,0,J;#,
+HO,light-candle-TR,0,1,0,0,1,1,0,0,B[;T- 1T-@;# BT,1<;T;#
+HO,light-turn-on-IN,0,0,0,0,0,0,0,0,BTo B^T,BT^c
+HO,march-IN,0,0,0,0,0,0,1,1,B;/ 1T>;/,BT- B;/
+HO,measure-book-TR,0,1,0,0,1,1,0,0,1@;T-;#,1@;T-;#
+HO,move-box-TR,0,1,1,1,1,0,0,0,8T(;/,8T(;/
+HO,paper-airplane-land-IN,0,0,0,0,0,0,1,0,B^T-,B;/
+HO,paper-drop-IN,0,0,0,0,0,0,1,1,B;/,B;/
+HO,pen-move-IN,0,0,0,1,0,0,1,0,1;T;#,B;/
+HO,person-bend-over-IN,0,0,0,0,0,0,0,0,B;/,
+HO,picture-shift-IN,0,0,1,1,0,0,1,0,Bc;/,BT(
+HO,plug-in-TR,0,1,0,0,1,1,0,0,1[;To;#,BT^c
+HO,pop-balloon-TR,0,1,0,0,1,1,0,0,1T>;/ BT-^c,BT-^c
+HO,poster-roll-up-IN,0,0,0,0,0,0,1,1,B@;/ B^T 1;# B^T-,B@;/
+HO,pour-bottle-caps-TR,0,1,1,1,1,1,0,0,BT^c,BT-^c
+HO,pull-out-measuring-tape-TR,0,1,0,0,1,0,0,0,1[;To;#,BTo
+HO,push-button-microwave-TR,0,1,0,0,1,0,0,0,1T-;#,B^T-
+HO,push-toy-in-box-TR,0,1,0,0,1,0,0,0,B^T-,B;/
+HO,put-book-on-side-TR,0,1,1,1,1,0,0,0,BT^c,
+HO,put-cup-on-coaster-TR,0,1,0,0,1,0,0,0,B@;T B^T-,
+HO,racecar-into-box-IN,0,0,0,0,0,0,1,0,B;T,B;/
+HO,remove-cork-TR,0,1,0,0,1,0,0,0,BT@,BT^c
+HO,reorient-pole-TR,0,1,0,0,1,0,0,0,BT^c,BT^c
+HO,roll-out-TR,0,1,0,0,1,0,0,0,BT^c BT^[,BT^c
+HO,shake-shaker-TR,0,1,0,0,1,0,0,0,BTkc,B^T
+HO,shaving-cream-spray-IN,0,0,1,1,0,0,1,1,1T;# 1[;#,BT@ B^T
+HO,spin-bread-TR,0,1,1,1,1,0,0,0,BT^c B^c;/,BT^c B^T-
+HO,spray-shaving-cream-TR,0,1,1,1,1,1,0,0,1^[;T;#,B^T-
+HO,stick-break-IN,0,0,1,1,0,0,0,0,B^T-,BT^c
+HO,take-keys-out-of-box-TR,0,1,0,0,1,0,0,0,1T>;#,BT-^c
+HO,take-lid-off-TR,0,1,0,0,1,0,0,0,BT^c Bkc;/,BT^c
+HO,tape-measurer-bend-half-IN,0,0,0,0,0,0,0,0,B^T,BT^c
+HO,taughten-string-TR,0,1,0,0,1,0,0,0,BT-@,BT-@
+HO,tear-paper-TR,0,1,0,0,1,0,0,0,1@;T-;#,1@;T-;#
+HO,tower-fall-IN,0,0,1,1,0,0,0,0,BTc BT(,BTc BT(
+HO,toy-appear-in-box-IN,0,0,0,0,0,0,1,0,B;/,B;/
+HO,toy-crawl-IN,0,0,0,0,0,0,1,1,B^T,B;/
+HO,toy-skitter-IN,0,0,0,0,0,0,1,1,B^T,B^T-
+HO,turn-fan-TR,0,1,1,1,1,0,0,0,B^T-,B^T-
+HO,walk-backwards-IN,0,0,0,0,0,0,1,1,B^T-,B^T-
+HO,whirly-gig-drop-IN,0,0,0,0,0,0,1,1,BTk B^T BT-,B^T BT-
+CM,adjust-picture-TR,0,1,1,1,1,0,0,0,B@;/,B@;/
+CM,approach-coatrack-IN,0,0,0,0,0,0,1,0,UT-^<;#,B;/
+CM,ball-bounce-IN,0,0,1,1,0,0,1,1,1;#,
+CM,ball-drop-IN,0,0,1,1,0,0,1,0,BTk,B;/
+CM,ball-hit-waterbottle-TR,0,1,0,1,0,0,1,0,Bo;/ B^T,Bo;/ B^T
+CM,ball-roll-IN,0,0,0,1,0,0,1,1,1;T;#,
+CM,balloon-deflate-IN,0,0,0,0,0,0,0,0,B^T BT^c,B^T BT^c
+CM,book-fall-over-IN,0,0,1,1,0,0,1,0,B;/,
+CM,bottle-caps-spill-IN,0,0,1,1,0,0,1,1,BTc BT(,BT-^c
+CM,bounce-ball-TR,0,1,1,1,1,0,0,0,B;/,
+CM,bowl-break-IN,0,0,0,1,0,0,0,0,BT^(,BT^(
+CM,box-move-IN,0,0,1,1,0,0,1,1,B^T-,B^T
+CM,bread-spin-IN,0,0,1,1,0,0,1,1,1T-<;#,
+CM,break-stick-TR,0,1,1,1,1,0,0,0,BT^( BT@,BT^( BT@
+CM,car-pass-tower-IN,0,0,0,0,0,0,1,0,B^T BT-c,B^T BT-c
+CM,cards-scatter-IN,0,0,0,0,0,0,1,1,1;T;#,Bo;T-
+CM,close-microwave-door-TR,0,1,1,1,1,0,0,0,B;/,
+CM,coatrack-approach-IN,0,0,0,0,0,0,1,0,B;/,
+CM,crush-can-TR,0,1,0,0,1,0,0,0,B^T- BT-^c,B^T- BT-^c
+CM,cut-bread-TR,0,1,0,0,1,1,0,0,1[;T;#,B^T-
+CM,dip-finger-in-jar-TR,0,1,0,0,1,0,0,0,JT-;#,Bc;/
+CM,door-microwave-close-IN,0,0,1,1,0,0,1,0,B;/,Bc;
+CM,drop-ball-TR,0,1,1,1,1,0,0,0,B@;/,BT-c B;/
+CM,fan-turn-IN,0,0,1,1,0,0,1,0,BT@ BT^x BT^< B^T-,
+CM,fizzle-down-IN,0,0,0,0,0,0,1,1,B^T,B^T
+CM,hammer-nail-TR,0,1,0,0,1,1,0,0,1@;T-;#,BT>
+CM,hanger-swing-IN,0,0,0,0,0,0,1,1,BT-^c,
+CM,hit-balloon-TR,0,1,0,1,1,0,0,0,B;/,BT@
+CM,hit-bottle-with-ball-TR,0,1,0,0,1,1,0,0,BT-c,BT-k@
+CM,knock-over-tower-TR,0,1,1,1,1,0,0,0,BT-c BT^<,B^T- Bk@;/
+CM,lid-blow-off-IN,0,0,0,0,0,0,1,1,B^T,BT^(
+CM,lift-teapot-pinky-TR,0,1,0,0,1,0,0,0,JT-[;#,1^[;T;#
+CM,light-candle-TR,0,1,0,0,1,1,0,0,1@;T-;# B^T,BT-k@ 1T-@;#
+CM,light-turn-on-IN,0,0,0,0,0,0,0,0,BT-@ B^T-,
+CM,march-IN,0,0,0,0,0,0,1,1,B;/,B;/
+CM,measure-book-TR,0,1,0,0,1,1,0,0,Bo;/,Bo;/
+CM,move-box-TR,0,1,1,1,1,0,0,0,B^T-,B^T-
+CM,paper-airplane-land-IN,0,0,0,0,0,0,1,0,B^T-,
+CM,paper-drop-IN,0,0,0,0,0,0,1,1,B^T-,
+CM,pen-move-IN,0,0,0,1,0,0,1,0,1To;#,
+CM,person-bend-over-IN,0,0,0,0,0,0,0,0,B;/,
+CM,picture-shift-IN,0,0,1,1,0,0,1,0,B;/,B;/
+CM,plug-in-TR,0,1,0,0,1,1,0,0,1Tc;#,BT^(
+CM,pop-balloon-TR,0,1,0,0,1,1,0,0,UTo# B^T,B^T
+CM,poster-roll-up-IN,0,0,0,0,0,0,1,1,B;/ 1;T;#,B^T-
+CM,pour-bottle-caps-TR,0,1,1,1,1,1,0,0,BTc,BT^c
+CM,pull-out-measuring-tape-TR,0,1,0,0,1,0,0,0,BTo BT-k@,BTo
+CM,push-button-microwave-TR,0,1,0,0,1,0,0,0,1;#,B^T-
+CM,push-toy-in-box-TR,0,1,0,0,1,0,0,0,B;/,
+CM,put-book-on-side-TR,0,1,1,1,1,0,0,0,B;#,B^T-
+CM,put-cup-on-coaster-TR,0,1,0,0,1,0,0,0,BTo,
+CM,racecar-into-box-IN,0,0,0,0,0,0,1,0,BTo,B^T-
+CM,remove-cork-TR,0,1,0,0,1,0,0,0,B@;T,BT^c
+CM,reorient-pole-TR,0,1,0,0,1,0,0,0,B^T BT^c,BT(
+CM,roll-out-TR,0,1,0,0,1,0,0,0,B;/,B;/
+CM,shake-shaker-TR,0,1,0,0,1,0,0,0,BTc,BT^c
+CM,shaving-cream-spray-IN,0,0,1,1,0,0,1,1,BT^c 1To;/,BT^c
+CM,spin-bread-TR,0,1,1,1,1,0,0,0,B^T- Bkc;/,1T-;#
+CM,spray-shaving-cream-TR,0,1,1,1,1,1,0,0,1[;T-;#,1c;T-;#
+CM,stick-break-IN,0,0,1,1,0,0,0,0,BT( BTk,B;/
+CM,take-keys-out-of-box-TR,0,1,0,0,1,0,0,0,1To;#,Bc;/
+CM,take-lid-off-TR,0,1,0,0,1,0,0,0,B^c;/,BT^(
+CM,tape-measurer-bend-half-IN,0,0,0,0,0,0,0,0,BT-c,BT-c
+CM,taughten-string-TR,0,1,0,0,1,0,0,0,1@;T-;#,1@;T-;#
+CM,tear-paper-TR,0,1,0,0,1,0,0,0,1@;T-;#,1@;T-;#
+CM,tower-fall-IN,0,0,1,1,0,0,0,0,B^T-,
+CM,toy-appear-in-box-IN,0,0,0,0,0,0,1,0,BTo B^T-,B^T-
+CM,toy-crawl-IN,0,0,0,0,0,0,1,1,BT^c BT-^c,BT-^c
+CM,toy-skitter-IN,0,0,0,0,0,0,1,1,B^T- B^T,
+CM,turn-fan-TR,0,1,1,1,1,0,0,0,B^T-,B^T-
+CM,walk-backwards-IN,0,0,0,0,0,0,1,1,UT-^<;#,
+CM,whirly-gig-drop-IN,0,0,0,0,0,0,1,1,1T-;#,
+CS,adjust-picture-TR,0,1,1,1,1,0,0,0,UT^c;#,Uc;T-;#
+CS,approach-coatrack-IN,0,0,0,0,0,0,1,0,1To;/,
+CS,ball-bounce-IN,0,0,1,1,0,0,1,1,BT-^c BT^c,
+CS,ball-drop-IN,0,0,1,1,0,0,1,0,BT@ BT^(,
+CS,ball-hit-waterbottle-TR,0,1,0,1,0,0,1,0,BTo B^T,Bo;/ BT-^c
+CS,ball-roll-IN,0,0,0,1,0,0,1,1,BT,B^T B^T-
+CS,balloon-deflate-IN,0,0,0,0,0,0,0,0,B^T- BT^x,B^T- BT^x
+CS,book-fall-over-IN,0,0,1,1,0,0,1,0,B^T,
+CS,bottle-caps-spill-IN,0,0,1,1,0,0,1,1,BTc BT-^c,B[;# BT^<
+CS,bounce-ball-TR,0,1,1,1,1,0,0,0,B;/,
+CS,bowl-break-IN,0,0,0,1,0,0,0,0,B^T,B^T
+CS,box-move-IN,0,0,1,1,0,0,1,1,BT@,
+CS,bread-spin-IN,0,0,1,1,0,0,1,1,UT^(;#,
+CS,break-stick-TR,0,1,1,1,1,0,0,0,BT@,BT@
+CS,car-pass-tower-IN,0,0,0,0,0,0,1,0,B;/,
+CS,cards-scatter-IN,0,0,0,0,0,0,1,1,B;/,
+CS,close-microwave-door-TR,0,1,1,1,1,0,0,0,B^T-,BT@
+CS,coatrack-approach-IN,0,0,0,0,0,0,1,0,B^T-,B^T-
+CS,crush-can-TR,0,1,0,0,1,0,0,0,BT^< BT^[,BT^< BT^[
+CS,cut-bread-TR,0,1,0,0,1,1,0,0,1[;To;#,BT^c
+CS,dip-finger-in-jar-TR,0,1,0,0,1,0,0,0,J;T-;#,BT^c
+CS,door-microwave-close-IN,0,0,1,1,0,0,1,0,B^T-,B^T-
+CS,drop-ball-TR,0,1,1,1,1,0,0,0,BT@ B^T,
+CS,fan-turn-IN,0,0,1,1,0,0,1,0,B;/,
+CS,fizzle-down-IN,0,0,0,0,0,0,1,1,BT^<,BT^c
+CS,hammer-nail-TR,0,1,0,0,1,1,0,0,1@;T-;#,1<;T;#
+CS,hanger-swing-IN,0,0,0,0,0,0,1,1,BT-^c,
+CS,hit-balloon-TR,0,1,0,1,1,0,0,0,B^T-,BT^(
+CS,hit-bottle-with-ball-TR,0,1,0,0,1,1,0,0,BT@,
+CS,knock-over-tower-TR,0,1,1,1,1,0,0,0,B^T-,
+CS,lid-blow-off-IN,0,0,0,0,0,0,1,1,BT^c B^T,BT^(
+CS,lift-teapot-pinky-TR,0,1,0,0,1,0,0,0,1[;To;#,
+CS,light-candle-TR,0,1,0,0,1,1,0,0,B@;T- BT-@,BT^c B^T-
+CS,light-turn-on-IN,0,0,0,0,0,0,0,0,B^T- B^;#,Bc;/
+CS,march-IN,0,0,0,0,0,0,1,1,B<;/,B;/
+CS,measure-book-TR,0,1,0,0,1,1,0,0,1@;T-;# 1T(;#,1@;T-;# 1T(;#
+CS,move-box-TR,0,1,1,1,1,0,0,0,B^T-,B^T-
+CS,paper-airplane-land-IN,0,0,0,0,0,0,1,0,B^T-,
+CS,paper-drop-IN,0,0,0,0,0,0,1,1,B^T- BT-^c,
+CS,pen-move-IN,0,0,0,1,0,0,1,0,1;#,
+CS,person-bend-over-IN,0,0,0,0,0,0,0,0,B;/,B;/
+CS,picture-shift-IN,0,0,1,1,0,0,1,0,B^T-,B^T
+CS,plug-in-TR,0,1,0,0,1,1,0,0,BT^c,BT^c
+CS,pop-balloon-TR,0,1,0,0,1,1,0,0,1[;To;# BT^(,B^T BT^(
+CS,poster-roll-up-IN,0,0,0,0,0,0,1,1,B^T-,
+CS,pour-bottle-caps-TR,0,1,1,1,1,1,0,0,BT^c,BT^c
+CS,pull-out-measuring-tape-TR,0,1,0,0,1,0,0,0,BT@,BT^c
+CS,push-button-microwave-TR,0,1,0,0,1,0,0,0,1;T;#,B@;#
+CS,push-toy-in-box-TR,0,1,0,0,1,0,0,0,BT-k,BT-k
+CS,put-book-on-side-TR,0,1,1,1,1,0,0,0,BT^c,
+CS,put-cup-on-coaster-TR,0,1,0,0,1,0,0,0,B@;T,
+CS,racecar-into-box-IN,0,0,0,0,0,0,1,0,B^T-,B^T
+CS,remove-cork-TR,0,1,0,0,1,0,0,0,BT^c,BT^(
+CS,reorient-pole-TR,0,1,0,0,1,0,0,0,BT-^[ BT^c,BT^c
+CS,roll-out-TR,0,1,0,0,1,0,0,0,B^T-,B^T-
+CS,shake-shaker-TR,0,1,0,0,1,0,0,0,UT^c;#,B^[;/
+CS,shaving-cream-spray-IN,0,0,1,1,0,0,1,1,1<;T-;# 1T[;# B^T B^T-,B^T
+CS,spin-bread-TR,0,1,1,1,1,0,0,0,BT^c Bkc;/,
+CS,spray-shaving-cream-TR,0,1,1,1,1,1,0,0,1T[;#,B^T-
+CS,stick-break-IN,0,0,1,1,0,0,0,0,BT-c,BT-c
+CS,take-keys-out-of-box-TR,0,1,0,0,1,0,0,0,1@;T-;#,BT(
+CS,take-lid-off-TR,0,1,0,0,1,0,0,0,BT-kc,BT^c
+CS,tape-measurer-bend-half-IN,0,0,0,0,0,0,0,0,BTkc,BT^c
+CS,taughten-string-TR,0,1,0,0,1,0,0,0,BT@,BT@
+CS,tear-paper-TR,0,1,0,0,1,0,0,0,UT@;#,UT@;#
+CS,tower-fall-IN,0,0,1,1,0,0,0,0,B^T-,B^T-
+CS,toy-appear-in-box-IN,0,0,0,0,0,0,1,0,B^T,B^T
+CS,toy-crawl-IN,0,0,0,0,0,0,1,1,B^T,
+CS,toy-skitter-IN,0,0,0,0,0,0,1,1,B^T BT^x,
+CS,turn-fan-TR,0,1,1,1,1,0,0,0,U^[;#,BT^x BTk
+CS,walk-backwards-IN,0,0,0,0,0,0,1,1,B^T-,
+CS,whirly-gig-drop-IN,0,0,0,0,0,0,1,1,B^T BT^x,B^T-
+RM,adjust-picture-TR,1,1,1,1,1,0,0,0,1T-;#,1T-;#
+RM,adjust-picture-TR,1,1,1,1,1,0,0,0,1@;T-;#,1@;T-;#
+RM,approach-coatrack-IN,1,0,0,0,0,0,1,0,U[;#,
+RM,ball-bounce-IN,1,0,1,1,0,0,1,1,BTc,
+RM,ball-drop-IN,1,0,1,1,0,0,1,0,BTc,
+RM,ball-hit-waterbottle-TR,1,1,0,1,0,0,1,0,BTc,BTc 1;#
+RM,ball-roll-IN,1,0,0,1,0,0,1,1,BT^(,BT^(
+RM,balloon-deflate-IN,1,0,0,0,0,0,0,0,B^T BT@,B^T BT@
+RM,book-fall-over-IN,1,0,1,1,0,0,1,0,B;#,B;#
+RM,bottle-caps-spill-IN,1,0,1,1,0,0,1,1,BTc BT> B^T-,BT- BT> B^T-
+RM,bounce-ball-TR,1,1,1,1,1,0,0,0,BT^c B^T-,BT^c BTc
+RM,bowl-break-IN,1,0,0,1,0,0,0,0,BT^( B^T- B;# B^;#,BT^( B^T- B;# B^;#
+RM,box-move-IN,1,0,1,1,0,0,1,1,B;#,
+RM,bread-spin-IN,1,0,1,1,0,0,1,1,BT> 1;T;# BTk,BT> 1;T;# BTk
+RM,break-stick-TR,1,1,1,1,1,0,0,0,BT@ 1;#,BT@ 1;#
+RM,car-pass-tower-IN,1,0,0,0,0,0,1,0,UT-^;#,B;#
+RM,cards-scatter-IN,1,0,0,0,0,0,1,1,B@;T BT^< B^T-,B^T-
+RM,close-microwave-door-TR,1,1,1,1,1,0,0,0,B;#,B;#
+RM,coatrack-approach-IN,1,0,0,0,0,0,1,0,1;#,Uo;#
+RM,crush-can-TR,1,1,0,0,1,0,0,0,B^[;/ BT< BT>,Bc;/ B;/
+RM,cut-bread-TR,1,1,0,0,1,1,0,0,BT-,BTc
+RM,dip-finger-in-jar-TR,1,1,0,0,1,0,0,0,J[;#,BTc
+RM,door-microwave-close-IN,1,0,1,1,0,0,1,0,B;#,B;#
+RM,drop-ball-TR,1,1,1,1,1,0,0,0,BT@ B^T BTc,BT-
+RM,fan-turn-IN,1,0,1,1,0,0,1,0,B^T,
+RM,fizzle-down-IN,1,0,0,0,0,0,1,1,BT BT>,BTc
+RM,hammer-nail-TR,1,1,0,0,1,1,0,0,1[;To;# 1;T;#,1[;To;# B;#
+RM,hanger-swing-IN,1,0,0,0,0,0,1,1,JT-;#,1;#
+RM,hit-balloon-TR,1,1,0,1,1,0,0,0,B;/ BTc,1T@;#
+RM,hit-bottle-with-ball-TR,1,1,0,0,1,1,0,0,BTc,1;#
+RM,knock-over-tower-TR,1,1,1,1,1,0,0,0,B;/ U;# U[;#,U;# U[;#
+RM,lid-blow-off-IN,1,0,0,0,0,0,1,1,B;/,BTc
+RM,lift-teapot-pinky-TR,1,1,0,0,1,0,0,0,J[;# B;/,B;/
+RM,light-candle-TR,1,1,0,0,1,1,0,0,B@;T- BT-@ BT-^<,1;#
+RM,light-turn-on-IN,1,0,0,0,0,0,0,0,BT> B^T,BTc
+RM,march-IN,1,0,0,0,0,0,1,1,1;T;# 1[;#,1;T;# 1[;#
+RM,measure-book-TR,1,1,0,0,1,1,0,0,1To;#,B;#
+RM,move-box-TR,1,1,1,1,1,0,0,0,B;/,B;/
+RM,paper-airplane-land-IN,1,0,0,0,0,0,1,0,1To;# 1T;# HT^;#,B^T-
+RM,paper-drop-IN,1,0,0,0,0,0,1,1,BT-,
+RM,pen-move-IN,1,0,0,1,0,0,1,0,1;#,BT-
+RM,person-bend-over-IN,1,0,0,0,0,0,0,0,BT@,B;#
+RM,picture-shift-IN,1,0,1,1,0,0,1,0,1T-;#,1T-;#
+RM,plug-in-TR,1,1,0,0,1,1,0,0,U^;#,BTc
+RM,pop-balloon-TR,1,1,0,0,1,1,0,0,1To;# BT@ B^T,MT(;/ BT@ B^T
+RM,poster-roll-up-IN,1,0,0,0,0,0,1,1,1;T;#,1@;T-;#
+RM,pour-bottle-caps-TR,1,1,1,1,1,1,0,0,BTc B^;#,BTc
+RM,pull-out-measuring-tape-TR,1,1,0,0,1,0,0,0,1@;T-;#,1@;T-;#
+RM,push-button-microwave-TR,1,1,0,0,1,0,0,0,1;T;#,B;/
+RM,push-toy-in-box-TR,1,1,0,0,1,0,0,0,B^T-,BT@
+RM,put-book-on-side-TR,1,1,1,1,1,0,0,0,BT<,B;#
+RM,put-cup-on-coaster-TR,1,1,0,0,1,0,0,0,BT@,1Tc;#
+RM,racecar-into-box-IN,1,0,0,0,0,0,1,0,UT-^;#,B;/
+RM,remove-cork-TR,1,1,0,0,1,0,0,0,BT@,1;T;#
+RM,reorient-pole-TR,1,1,0,0,1,0,0,0,BTc,B;/
+RM,roll-out-TR,1,1,0,0,1,0,0,0,B^c;/,B^c;/
+RM,shake-shaker-TR,1,1,0,0,1,0,0,0,BTc,BT-
+RM,shaving-cream-spray-IN,1,0,1,1,0,0,1,1,1;# 1[;#,B;/
+RM,spin-bread-TR,1,1,1,1,1,0,0,0,1<;T;#,1<;T;#
+RM,spray-shaving-cream-TR,1,1,1,1,1,1,0,0,1;# 1[;#,B^T-
+RM,stick-break-IN,1,0,1,1,0,0,0,0,B;#,1;#
+RM,take-keys-out-of-box-TR,1,1,0,0,1,0,0,0,D^[;1To,
+RM,take-lid-off-TR,1,1,0,0,1,0,0,0,B^c;/,BTc
+RM,tape-measurer-bend-half-IN,1,0,0,0,0,0,0,0,1;#,1;#
+RM,taughten-string-TR,1,1,0,0,1,0,0,0,1@;T-;#,1@;T-;#
+RM,tear-paper-TR,1,1,0,0,1,0,0,0,1T-@;#,1T-@;#
+RM,tower-fall-IN,1,0,1,1,0,0,0,0,U^<;#,U^<;#
+RM,toy-appear-in-box-IN,1,0,0,0,0,0,1,0,BT-k@,M;/
+RM,toy-crawl-IN,1,0,0,0,0,0,1,1,U^[;#,U^[;#
+RM,toy-skitter-IN,1,0,0,0,0,0,1,1,U^[;#,U^[;#
+RM,turn-fan-TR,1,1,1,1,1,0,0,0,1@;T-;#,1@;T-;#
+RM,walk-backwards-IN,1,0,0,0,0,0,1,1,U^;#,
+RM,whirly-gig-drop-IN,1,0,0,0,0,0,1,1,UT-k;# 1<;#,B;/
