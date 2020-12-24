@@ -1,41 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Sep 30 17:41:45 2019
-
-@author: Jack
-"""
-
-# -*- coding: utf-8 -*-
-"""
 Created on Tue Jan 30 13:17:54 2018
 
 @author: Jack
-"""
-"""
-def get_Flexion(a):
-    flexion = 0
-    if len(a.split(";"))>1:
-        b = a.split(";")[0]
-    else:
-        b = a
-    if "C" in b:
-        flexion+=2
-    if "(" in b:
-        flexion+=2
-    if "O" in b:
-        flexion+=3
-    if "[" in b:
-        flexion+=4
-    if "<" in b:
-        flexion+=5
-    if ">" in b:
-        flexion+=6
-    if "@" in b:
-        flexion+=7
-    if flexion == 0:
-        flexion+=1
-    return flexion
-
 """
 def get_Flexion(a):
     flexion = 1
@@ -72,7 +39,6 @@ def get_thumb_flexion(a):
     else:
         thumb_flex = 0
     return thumb_flex
-
 
 def get_NSFFlexion(a):
     #NSF flexion
@@ -223,7 +189,7 @@ def featureCoding(a):
     nsf_flexion = get_NSFFlexion(b)
     selfing = get_SelectedFing(b)
     aperture_change = get_apChange(a)
-    nsf_thumb = get_nsfflexion_thumb(b) ###a or b???
-    thumb_flex = get_thumb_flexion(b) ### a or b?
+    nsf_thumb = get_nsfflexion_thumb(b) 
+    thumb_flex = get_thumb_flexion(b) 
 
     return compF,compJ,flexion,nsf_flexion,selfing,aperture_change,nsf_thumb,thumb_flex
