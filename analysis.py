@@ -9,7 +9,7 @@ Created on Mon Oct 28 15:11:16 2019
 from sklearn.svm import SVC
 import pandas as pd
 from sklearn.model_selection import StratifiedKFold,KFold
-from featureCoding_fixed4 import featureCoding #Edit filename
+from convert_handshape_to_features import featureCoding #Edit filename
 from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.feature_selection import SelectKBest, f_classif
 from sklearn.preprocessing import StandardScaler
@@ -48,7 +48,7 @@ class FeatureSelector():
         return X[ self._feature_names ] 
 
 #import data
-l = "handshape-project-02-20-20-main-only-1.csv" #update filename
+l = "handshape-data.csv" #update filename
 df = pd.read_csv(l)
 
 #convert handshape codes to component features
