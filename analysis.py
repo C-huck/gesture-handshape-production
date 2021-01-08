@@ -1,15 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Oct 28 15:11:16 2019
-
-@author: Jack
-"""
-
 #Classification
 from sklearn.svm import SVC
 import pandas as pd
 from sklearn.model_selection import StratifiedKFold,KFold
-from convert_handshape_to_features import featureCoding #Edit filename
+from convert_handshape_to_features import featureCoding
 from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.feature_selection import SelectKBest, f_classif
 from sklearn.preprocessing import StandardScaler
@@ -48,8 +41,7 @@ class FeatureSelector():
         return X[ self._feature_names ] 
 
 #import data
-l = "handshape-data.csv" #update filename
-df = pd.read_csv(l)
+df = pd.read_csv("handshape-data.csv")
 
 #convert handshape codes to component features
 lambdafunc = lambda x: pd.Series(featureCoding(x['HS1Code']))
@@ -64,9 +56,11 @@ df = df[df['SignerStatus']==0]
 
 #set up classification
 categorical_features = ['apertureChange','noHands','nsf_flexion']
-numerical_features = ['compF','compJ','flexion','nsf_flexion','nsf_thumb','thumb_flex']
 categorical_pipeline = Pipeline( steps = [ ( 'cat_selector', FeatureSelector(categorical_features) ) ] ) #leaves categorical data untouched
+
+numerical_features = ['compF','compJ','flexion','nsf_flexion','nsf_thumb','thumb_flex']
 numerical_pipeline = Pipeline( steps = [ ( 'num_selector', FeatureSelector(numerical_features) ), ( 'std_scaler', StandardScaler() ) ] ) #scales numerical data
+
 full_pipeline = FeatureUnion( transformer_list = [ ( 'categorical_pipeline', categorical_pipeline ), ( 'numerical_pipeline', numerical_pipeline ) ] ) 
 
 pipe = Pipeline([
@@ -98,10 +92,11 @@ X = df; columns = ["All events"]
 #X = X.sort_values(by=['EventFilename'])
 #X = X.sort_values(by=['Participant'])
 
+#Labels
 y = X['LabelBin']
 
 
-kf = StratifiedKFold(n_splits=6,shuffle=True,random_state=6) #0 for alts; 3 for manip; 3 for tool; 0 for all
+kf = StratifiedKFold(n_splits=6,shuffle=True,random_state=6)
 avg = []
 coefs = []
 raw_acc = []
@@ -118,7 +113,6 @@ intercepts = []
 for train,test in kf.split(X,y):
     #pipe.fit(X.loc[train],y.loc[train])
     pipe.fit(X.iloc[train],y.iloc[train])
-    score = pipe.score(X.iloc[test],y.iloc[test])
     pred = pipe.predict(X.iloc[test])
     actual = y.iloc[test]
     
@@ -127,32 +121,22 @@ for train,test in kf.split(X,y):
     
     selbest = pipe['reduce_dim']
     print(selbest.get_support())
-    #print(selbest.scores_)
     f_scores.append(selbest.scores_)
     cl_weights = pipe['classify']
     coef_vec = np.zeros(len(selbest.get_support()))
-    #print(np.zeros(len(selbest.get_support)))
     coefs.append(cl_weights.coef_[0])
 
     intercepts.append(pipe['classify'].intercept_)
-
-    #accu = pipe['accuracy']
-    #support_vec = pipe['classify'].n_support_
-    #print(support_vec)
-    #print(score)
-    avg.append(score)
+    
     predictions+=list(pred)
     y_trues+=list(actual)
     
-    raw_acc = accuracy_score(pred,actual,normalize=False)
-    if list(actual).count(0) > len(actual)/2:
-        bbl = list(actual).count(0)/len(actual)
-    else:
-        bbl = actual.sum()/len(actual)
-    p_vals.append(binomial_cmf(raw_acc,len(actual),bbl))
-    #print("bbl: ",bbl)
+    avg.append(accuracy_score(pred,actual)
+    blind_bl = mean(actual)
+    if blind_bl < 0.5:
+        blind_bl = 1 - blind_bl
+    p_vals.append(binomial_cmf(accuracy_score(pred,actual,normalize=False),len(actual),bbl))
 
-    
     eventNames = X.iloc[test]['EventFilename']
     participantNames = X.iloc[test]['Participant']
     for (name,pname,prediction,label) in zip(eventNames,participantNames,pred,actual):
