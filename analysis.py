@@ -45,7 +45,7 @@ df = pd.read_csv("handshape-data.csv")
 
 #convert handshape codes to component features
 lambdafunc = lambda x: pd.Series(featureCoding(x['HS1Code']))
-df[['compF','compJ','flexion','nsf_flexion','selfing','aperture_change','nsf_thumb','thumb_flex']] = df.apply(lambdafunc, axis=1)
+df[['compF','compJ','flexion','nsf_flexion','selfing','apertureChange','nsf_thumb','thumb_flex']] = df.apply(lambdafunc, axis=1)
 
 #Add a feature for presence of 2nd hand
 df['HS2Code'] = df['HS2Code'].fillna(0)
@@ -58,7 +58,7 @@ df = df[df['SignerStatus']==0]
 categorical_features = ['apertureChange','noHands','nsf_flexion']
 categorical_pipeline = Pipeline( steps = [ ( 'cat_selector', FeatureSelector(categorical_features) ) ] ) #leaves categorical data untouched
 
-numerical_features = ['compF','compJ','flexion','nsf_flexion','nsf_thumb','thumb_flex']
+numerical_features = ['compF','compJ','flexion','nsf_thumb','thumb_flex']
 numerical_pipeline = Pipeline( steps = [ ( 'num_selector', FeatureSelector(numerical_features) ), ( 'std_scaler', StandardScaler() ) ] ) #scales numerical data
 
 full_pipeline = FeatureUnion( transformer_list = [ ( 'categorical_pipeline', categorical_pipeline ), ( 'numerical_pipeline', numerical_pipeline ) ] ) 
