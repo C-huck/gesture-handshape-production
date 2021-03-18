@@ -99,52 +99,32 @@ y = X['LabelBin']
 kf = StratifiedKFold(n_splits=6,shuffle=True,random_state=6)
 avg = []
 coefs = []
-raw_acc = []
 predictions = []
 y_trues = []
-f_scores = []
-wrong_answers = []
-right_answers = []
-probas = []
 p_vals = []
-event_ids = []
-participants = []
-intercepts = []
 for train,test in kf.split(X,y):
-    #pipe.fit(X.loc[train],y.loc[train])
+    #Classify, get predictions and ground truth labels
     pipe.fit(X.iloc[train],y.iloc[train])
     pred = pipe.predict(X.iloc[test])
     actual = y.iloc[test]
     
-    event_ids.append(X.iloc[train]['EventFilename'])
-    participants.append(X.iloc[train]['Participant'])
-    
+    #Record best predictors for classification
     selbest = pipe['reduce_dim']
-    print(selbest.get_support())
-    f_scores.append(selbest.scores_)
+    #print(selbest.get_support())
     cl_weights = pipe['classify']
-    coef_vec = np.zeros(len(selbest.get_support()))
     coefs.append(cl_weights.coef_[0])
-
-    intercepts.append(pipe['classify'].intercept_)
     
+    #Record predictions and ground truth labels for summary metrics
     predictions+=list(pred)
     y_trues+=list(actual)
     
+    #Record accuracy and per-fold significance
     avg.append(accuracy_score(pred,actual)
     blind_bl = mean(actual)
     if blind_bl < 0.5:
         blind_bl = 1 - blind_bl
     p_vals.append(binomial_cmf(accuracy_score(pred,actual,normalize=False),len(actual),bbl))
 
-    eventNames = X.iloc[test]['EventFilename']
-    participantNames = X.iloc[test]['Participant']
-    for (name,pname,prediction,label) in zip(eventNames,participantNames,pred,actual):
-        if prediction != label:
-           wrong_answers.append([name,pname,prediction,label])
-        else:
-           right_answers.append([name,pname,prediction,label])
-    
 acc = np.mean(avg)
 mcc = matthews_corrcoef(y_trues,predictions)
 print("MCC:",round(mcc,4))
@@ -167,7 +147,7 @@ blind_bl = mean(y)
 if blind_bl < 0.5:
     blind_bl = 1 - blind_bl
 
-#compute p from cumulative mass function
+#compute overall significance using cumulative mass function
 print("p: ",round(binomial_cmf((len(X)*(acc)),len(X),blind_bl),4))
 
 #violin plots of classifier accuracy
